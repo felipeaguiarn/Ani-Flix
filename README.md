@@ -15,11 +15,11 @@ Você pode testar o funcionamento da pagina nesse [LINK](https://felipeaguiarn.g
 ### Desenvolvido 
 Em HTML, CSS, Javascript, Jquery. 
 
-![Image of WebPage-1]()
+![Image of WebPage-1](https://raw.githubusercontent.com/felipeaguiarn/Ani-Flix/main/Print1.png)
 
-![Image of WebPage-2]()
+![Image of WebPage-2](https://raw.githubusercontent.com/felipeaguiarn/Ani-Flix/main/Print2.png)
 
-
+![Image of WebPage-3](https://raw.githubusercontent.com/felipeaguiarn/Ani-Flix/main/Print3.png)
 ___
 
 
