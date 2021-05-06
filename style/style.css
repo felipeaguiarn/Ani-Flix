@@ -1,0 +1,178 @@
+:root{
+    --vermelho: #e50914;
+    --preto:#141414;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background: var(--preto);
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+
+header .container{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+
+
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family:'Arial Narrow', Arial, sans-serif;  
+    font-size: 30px;
+    margin-right: 40px;
+
+
+}
+
+
+header nav a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#fff;
+    margin-right: 15px;
+    
+}
+
+header nav a:hover{
+    color:#AAA;
+}
+
+/* Anime principal */
+
+
+.anime-principal{
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(../img/cover-init.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo{
+    font-size: 30px;
+    font-family:'Arial Narrow', Arial, sans-serif;  
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.titulo2{
+    font-size: 22px;
+    font-family:'Arial Narrow', Arial, sans-serif;  
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.descricao{
+    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 60%;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.60);
+    border: none;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.botao:hover{
+    background-color: white;
+    color: var(--preto);
+}
+
+.container{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.box-animes{
+    height: 70%;
+    width: 70%;
+    display: block;
+    border: 1px solid white; 
+}
+
+.box-animes:hover{
+    width: 100%;
+    border: 3px solid white;
+    
+}
+
+.container-footer{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.footer-bar{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:50px;
+    padding-right: 10px;
+
+}
+
+.footer-social img{
+    margin-right: 20px;
+}
+
+
+
+.foooter-link{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.foooter-link a:hover {
+    text-decoration: underline;
+}
+
+.footer-copy{
+    font-size: 11px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: gray;
+}
